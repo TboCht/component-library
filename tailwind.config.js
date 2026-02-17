@@ -43,27 +43,6 @@ module.exports = {
       lg: ["1.125rem", { lineHeight: "1.75rem" }] /* 18px - 28px */,
       xl: ["1.250rem", { lineHeight: "2rem" }],
     },
-    ////////////////////////////////////////////////////////////////////////////  colors
-    colors: ({ colors }) => ({
-      inherit: colors.inherit,
-      current: colors.current,
-      transparent: colors.transparent,
-      white: colors.white,
-      base: {
-        50: "#fafaf9" /* background very soft */,
-        100: "#f5f5f4" /* background cards */,
-        300: "#d6d3d1" /* borders base */,
-        400: "#a8a29e" /* subtitles over white base */,
-        500: "#78716c" /* subtitles, captions, misc over bg-100+ */,
-        700: "#44403c" /* alternative text / labels etc */,
-        900: "#1c1917" /* Main color for text */,
-      },
-      primary: "#1356E5" /* primary color */,
-      secondary: "#1379e5",
-      error: "#e61220",
-      waiting: "#f97316",
-      validated: "#84cc16",
-    }),
 
     ////////////////////////////////////////////////////////////////////////////  default border color
     borderColor: ({ theme }) => ({
